@@ -1,0 +1,15 @@
+{
+  "name": "ci-nodejs",
+  "version": "1.0.0",
+  "description": "CI Github Actions nodejs unit test",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "drl",
+  "license": "ISC"
+}
