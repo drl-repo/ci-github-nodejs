@@ -18,4 +18,8 @@ describe('Test addition function', function(){
 	it('Should be 1000', function(){
 		assert.equal(addition(1,999), 1000)
 	})
+
+	it('Should be 1000000', function(){
+		assert.equal(addition(500000,500000), 1000000)
+	})
 })
